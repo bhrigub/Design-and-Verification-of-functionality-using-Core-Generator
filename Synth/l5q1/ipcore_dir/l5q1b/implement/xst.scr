@@ -1,0 +1,14 @@
+
+run
+-ifmt VHDL
+-ent l5q1b_exdes 
+-p xc6vcx75t-ff484-2
+-ifn xst.prj
+-write_timing_constraints No
+-iobuf YES
+-max_fanout 100
+-ofn l5q1b_exdes 
+-ofmt NGC
+-bus_delimiter ()
+-hierarchy_separator /
+-case Maintain

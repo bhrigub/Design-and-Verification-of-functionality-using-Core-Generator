@@ -1,0 +1,25 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Admin/Desktop/New Counter/NewCounter/counter_counter_sch_tb_isim_beh.exe -prj C:/Users/Admin/Desktop/New Counter/NewCounter/counter_counter_sch_tb_beh.prj work.counter_counter_sch_tb 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Admin/Desktop/New Counter/NewCounter/counter.vhf" into library work
+Parsing VHDL file "C:/Users/Admin/Desktop/New Counter/NewCounter/tb_counter.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 113048 KB
+Fuse CPU Usage: 358 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling architecture fdc_v of entity FDC [\FDC('0')\]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture behavioral of entity counter [counter_default]
+Compiling architecture behavioral of entity counter_counter_sch_tb
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 11 VHDL Units
+Built simulation executable C:/Users/Admin/Desktop/New Counter/NewCounter/counter_counter_sch_tb_isim_beh.exe
+Fuse Memory Usage: 129736 KB
+Fuse CPU Usage: 467 ms

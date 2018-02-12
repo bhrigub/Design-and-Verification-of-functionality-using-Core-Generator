@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/Lab5/Q1/Synth/l5q1/l5q1etb_isim_beh.exe" -prj "E:/Lab5/Q1/Synth/l5q1/l5q1etb_beh.prj" "work.l5q1etb" "work.glbl" 

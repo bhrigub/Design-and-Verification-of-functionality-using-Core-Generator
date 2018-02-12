@@ -1,0 +1,17 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.20131013
+#Current Working Directory:
+#:D   E:\Lab5\Q1\Synth\l5q1
+#Date/Time:
+#:T   Wed Jun 10 01:24:32 2015
+#------------------------------
+	#Reading l5q1dfpga.ncd...
+	#Loading device for application Rf_Device from file '6vcx75t.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+	#   "l5q1dfpga" is an NCD, version 3.2, device xc6vcx75t, package ff484, speed -2
+	#Design creation date: 2015.06.09.19.53.21
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes

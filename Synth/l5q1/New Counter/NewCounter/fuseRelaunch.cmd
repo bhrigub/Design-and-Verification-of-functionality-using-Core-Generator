@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Admin/Desktop/New Counter/NewCounter/counter_counter_sch_tb_isim_beh.exe" -prj "C:/Users/Admin/Desktop/New Counter/NewCounter/counter_counter_sch_tb_beh.prj" "work.counter_counter_sch_tb" 

@@ -1,0 +1,9 @@
+V3 6
+FL "C:/Users/Admin/Desktop/New Counter/NewCounter/counter.vhf" 2015/04/09.17:37:42 P.20131013
+EN work/counter 1428581266 \
+      FL "C:/Users/Admin/Desktop/New Counter/NewCounter/counter.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/counter/BEHAVIORAL 1428581267 \
+      FL "C:/Users/Admin/Desktop/New Counter/NewCounter/counter.vhf" \
+      EN work/counter 1428581266 CP FDC CP INV

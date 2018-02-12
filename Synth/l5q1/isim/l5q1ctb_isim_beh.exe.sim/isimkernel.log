@@ -1,0 +1,10 @@
+Command line:
+   l5q1ctb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57808
+
+Wed Jun 10 00:46:11 2015
+
+
+ Elaboration Time: 0.140401 sec

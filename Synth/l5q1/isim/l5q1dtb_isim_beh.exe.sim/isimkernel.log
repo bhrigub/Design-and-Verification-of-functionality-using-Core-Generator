@@ -1,0 +1,28 @@
+Command line:
+   l5q1dtb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  62081
+
+Wed Jun 10 01:07:46 2015
+
+
+ Elaboration Time: 0.187202 sec
+
+ Current Memory Usage: 1302.56 Meg
+
+ Total Signals          : 240
+ Total Nets             : 443
+ Total Signal Drivers   : 49
+ Total Blocks           : 14
+ Total Primitive Blocks : 8
+ Total Processes        : 141
+ Total Traceable Variables  : 155
+ Total Scalar Nets and Variables : 3797
+
+ Total Simulation Time: 0.249602 sec
+
+ Current Memory Usage: 1147.35 Meg
+
+Wed Jun 10 01:08:53 2015
+

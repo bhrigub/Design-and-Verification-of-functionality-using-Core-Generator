@@ -1,0 +1,78 @@
+select figure at 639 1596 8 -branches -sn=1
+select figure at 489 1362 8 -branches -sn=1
+select figure at 517 1341 8 -branches -sn=1
+select figure at 2120 1641 8 -branches -sn=1
+select figure at 1390 1187 8 -branches -sn=1
+select figure at 1376 1149 8 -branches -sn=1
+select figure at 2040 1111 8 -branches -sn=1
+select figure at 1638 1334 8 -branches -sn=1
+select figure at 824 1226 8 -branches -sn=1
+select figure at 1324 1159 8 -branches -sn=1
+select figure at 1400 1170 8 -branches -sn=1
+select figure at 1404 1180 8 -branches -sn=1
+select figure at 1359 1104 8 -branches -sn=1
+select figure at 1390 1150 8 -branches -sn=1
+select figure at 1376 1176 8 -branches -sn=1
+select figure at 1415 1233 8 -branches -sn=1
+select figure at 1358 1182 8 -branches -sn=1
+select figure at 1376 1184 8 -branches -sn=1
+delete selection -sn=1
+BeginGroup
+add wire 1232 1104 1264 1104 -sn=1
+add iomarker 1264 1104 0 Output Unknown -sn=1
+EndGroup
+select figure at 1326 1101 8 -branches -sn=1
+select figure at 1326 1101 8 -branches -all -sn=1
+set attr NA|XLXN_14|Name value Q1 -sn=1
+add autowire 656 1232 1456 1200 8 -sn=1
+select figure at 2053 1154 8 -branches -sn=1
+delete selection -sn=1
+add autowire 2240 1200 1248 1200 8 -sn=1
+add autowire 1552 1552 1840 1072 8 -sn=1
+select figure at 1886 1079 8 -branches -sn=1
+select figure at 1831 1075 8 -branches -sn=1
+select figure at 1867 1077 8 -branches -sn=1
+add autowire 1888 1072 2016 1072 8 -sn=1
+add iomarker 2016 1072 0 Unknown Unknown -sn=1
+select figure at 2098 1071 8 -branches -sn=1
+select figure at 2098 1071 8 -branches -all -sn=1
+set attr NA|XLXN_15|Name value Q2 -sn=1
+select figure at 1269 1103 8 -branches -sn=1
+select figure at 1304 1110 8 -branches -sn=1
+select figure at 1308 1093 8 -branches -sn=1
+delete selection -sn=1
+select figure at 1285 1105 8 -branches -sn=1
+select figure at 1219 1099 8 -branches -sn=1
+move instance at 848 1360 to 784 1360 R0 -keepConn -sn=1
+select figure at 1221 1101 8 -branches -sn=1
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+redo
+redo
+redo
+redo
+redo
+redo
+redo
+redo
+redo
+redo
+redo
+select figure at 1313 1104 8 -branches -sn=1
+undo
+select figure at 1254 1090 8 -branches -sn=1

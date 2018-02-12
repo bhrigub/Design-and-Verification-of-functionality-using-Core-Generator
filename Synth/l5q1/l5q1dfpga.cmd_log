@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "E:/Lab5/Q1/Synth/l5q1/l5q1dfpga.xst" -ofn "E:/Lab5/Q1/Synth/l5q1/l5q1dfpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6vcx75t-ff484-2 l5q1dfpga.ngc l5q1dfpga.ngd  
+map -intstyle ise -p xc6vcx75t-ff484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o l5q1dfpga_map.ncd l5q1dfpga.ngd l5q1dfpga.pcf 
+par -w -intstyle ise -ol high -mt off l5q1dfpga_map.ncd l5q1dfpga.ncd l5q1dfpga.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml l5q1dfpga.twx l5q1dfpga.ncd -o l5q1dfpga.twr l5q1dfpga.pcf 
+xst -intstyle ise -ifn "E:/Lab5/Q1/Synth/l5q1/l5q1dfpga.xst" -ofn "E:/Lab5/Q1/Synth/l5q1/l5q1dfpga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6vcx75t-ff484-2 l5q1dfpga.ngc l5q1dfpga.ngd  
+map -intstyle ise -p xc6vcx75t-ff484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o l5q1dfpga_map.ncd l5q1dfpga.ngd l5q1dfpga.pcf 
+par -w -intstyle ise -ol high -mt off l5q1dfpga_map.ncd l5q1dfpga.ncd l5q1dfpga.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml l5q1dfpga.twx l5q1dfpga.ncd -o l5q1dfpga.twr l5q1dfpga.pcf 

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="816" delta="old" >"E:\Lab5\Q1\Synth\l5q1\fgpa_l5q1c.v" Line 68: System function call <arg fmt="%s" index="1">random</arg> not supported
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="816" delta="old" >"E:\Lab5\Q1\Synth\l5q1\fgpa_l5q1c.v" Line 69: System function call <arg fmt="%s" index="1">random</arg> not supported
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="816" delta="old" >"E:\Lab5\Q1\Synth\l5q1\fgpa_l5q1c.v" Line 70: System function call <arg fmt="%s" index="1">random</arg> not supported
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="816" delta="old" >"E:\Lab5\Q1\Synth\l5q1\fgpa_l5q1c.v" Line 71: System function call <arg fmt="%s" index="1">random</arg> not supported
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="old" >"E:\Lab5\Q1\Synth\l5q1\fgpa_l5q1c.v" Line 53: Using initial value of <arg fmt="%s" index="1">add</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Lab5\Q1\Synth\l5q1\fgpa_l5q1c.v" Line 43: Assignment to <arg fmt="%s" index="1">c_out</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\Lab5\Q1\Synth\l5q1\fgpa_l5q1c.v" Line 46: Assignment to <arg fmt="%s" index="1">s</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Lab5\Q1\Synth\l5q1\fgpa_l5q1c.v</arg>&quot; line <arg fmt="%s" index="2">39</arg>: Output port &lt;<arg fmt="%s" index="3">s</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">uut3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\Lab5\Q1\Synth\l5q1\fgpa_l5q1c.v</arg>&quot; line <arg fmt="%s" index="2">39</arg>: Output port &lt;<arg fmt="%s" index="3">c_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">uut3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">blk00000008</arg> in unit <arg fmt="%s" index="2">blk00000008</arg> of type <arg fmt="%s" index="3">DSP48E</arg> has been replaced by <arg fmt="%s" index="4">DSP48E1</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2170" delta="old" >Unit <arg fmt="%s" index="1">l5q1dfpga</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+
